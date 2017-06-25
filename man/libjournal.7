@@ -1,6 +1,6 @@
 .\" Manpage for libjournal.so
 .\" Contact deb@danielabrecht.ch
-.TH libjournal 7 "2017-06-20" "1.0" "libjournal.so man page"
+.TH libjournal-shim 7 "2017-06-20" "1.0" "libjournal.so man page"
 .SH NAME
 libjournal.so \- Library for translating calls to sd_journal_* to syslog. 
 .SH SYNOPSIS
@@ -45,7 +45,7 @@ journal API a way to make the transitition back to syslog easier.
 .SH EXAMPLES
 LD_PRELOAD=libjournal.so program
 
-echo /usr/lib/libjournal.so >> /etc/ld.so.preload
+echo /lib/libjournal.so >> /etc/ld.so.preload
 
 .SH SEE ALSO
 sd-journal(3)
