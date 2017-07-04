@@ -1,3 +1,3 @@
-out/libjournal.so	lib/
+out/libjournal.so	usr/lib/
 out/libjournal.a	usr/lib/
 man/libjournal.7	usr/share/man/man7/
