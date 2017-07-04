@@ -3,8 +3,8 @@ Maintainer: Daniel Patrick Abrecht <deb@danielabrecht.ch>
 Section: libs
 Priority: optional
 Build-Depends: debhelper (>= 9)
-Vcs-Git: git@git.devuan.org:DPA/sd_journal_shim.git
-Vcs-browser: https://git.devuan.org/DPA/sd_journal_shim
+Vcs-Git: git@git.devuan.org:devuan-packages/sd_journal_shim.git
+Vcs-browser: https://git.devuan.org/devuan-packages/sd_journal_shim
 
 Package: libjournal-shim
 Architecture: any
