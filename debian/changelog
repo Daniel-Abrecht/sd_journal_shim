@@ -1,3 +1,11 @@
+libjournal-shim (1.0-2) RELEASED; urgency=medium
+
+  * Removed a licensing restriction
+
+  * moved libjournal.so from /lib to /usr/lib/
+
+ -- Daniel Patrick Abrecht <deb@danielabrecht.ch>  Wed, 05 Jul 2017 18:00:00 +0000
+
 libjournal-shim (1.0-1) RELEASED; urgency=medium
 
   * Initial release.

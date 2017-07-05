@@ -13,9 +13,6 @@ License: MIT
  copies of the Software, and to permit persons to whom the Software is
  furnished to do so, subject to the following conditions:
  .
- This software shall not be used to encourage others to use the systemd journal
- API, or any of it's sd_journal_* functions.
- .
  The above copyright notice and this permission notice shall be included in all
  copies or substantial portions of the Software.
  .

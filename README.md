@@ -5,15 +5,14 @@ which use the systemd journald API for logging won't log anything
 without systemd. libsystemd0 simply doesn't fall back to syslog
 if systemd is unavailable.
 
-This library only implements sd_journal_* functions which produce
+The library only implements sd_journal_* functions which produce
 logging output and will forward everything to syslog.
 
-It is not allowed to use this library in an argument to encourage
-others to use the systemd journal API. Doing so violates the license
-terms, which means that you loose all rights to the software granted
-by the license if you do so.
+Don't use this library as an excuse to use the systemd journald API,
+nor to encourage others to do so. It would be the opposite of what
+this library is aiming to achieve.
 
-This library is ment for software for which the mistake of using the
+The library is ment for software for which the mistake of using the
 systemd journal API was already made. It allows users of such software
 to get log messages again, and gives developers who used the systemd
 journal API a way to make the transitition back to syslog easier.
